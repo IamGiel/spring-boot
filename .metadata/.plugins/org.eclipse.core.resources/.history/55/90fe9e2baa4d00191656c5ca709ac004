@@ -1,0 +1,24 @@
+package com.setupJava.spring.basics.springinfewsteps;
+
+public class BinarySearchImpl {
+	
+	private SortAlgorithm sortAlgorithm;
+	
+	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
+		super();
+		this.sortAlgorithm = sortAlgorithm;
+	}
+
+	public int binarySearch(int[] numbers, int numberTOSearchFor) {
+		
+		
+		int[] sortedNumbers = sortAlgorithm.sort(numbers);
+		System.out.println(sortedNumbers);
+				
+		//sort array
+		//search array (typically index)
+		//return results
+		return 3;
+	}
+
+}

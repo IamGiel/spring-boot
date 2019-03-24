@@ -1,0 +1,18 @@
+package com.setupJava.spring.basics.springinfewsteps;
+
+//import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class SpringInFewStepsApplication {
+
+	public static void main(String[] args) {
+		
+		BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
+		int result = binarySearch.binarySearch(new int[] {12, 4, 6 }, 3);
+		System.out.println(result);
+//		SpringApplication.run(SpringInFewStepsApplication.class, args);
+	}
+
+}

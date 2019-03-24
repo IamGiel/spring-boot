@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/alpha.gieldeasis/Desktop/src/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1248052795.index
+2565973593.index
+2638888280.index
+4087973552.index
+242398918.index
+1558868731.index

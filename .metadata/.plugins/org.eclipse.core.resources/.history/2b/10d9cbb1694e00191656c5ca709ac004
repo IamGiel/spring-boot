@@ -1,0 +1,6 @@
+package com.setupJava.spring.basics.springinfewsteps;
+
+
+public interface SortAlgorithm {
+	public int[] sort(int[] numbers);
+}
