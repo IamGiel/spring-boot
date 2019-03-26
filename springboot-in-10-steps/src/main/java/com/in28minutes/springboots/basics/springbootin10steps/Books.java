@@ -7,9 +7,9 @@ public class Books {
 	String Author;
 	
 	
-	public Books(Long id, String title, String author) {
+	public Books(long i, String title, String author) {
 		super();
-		this.id = id;
+		this.id = i;
 		Title = title;
 		Author = author;
 	}
