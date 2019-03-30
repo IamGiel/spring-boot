@@ -221,3 +221,38 @@
 2019-03-29 09:05:21,872 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-03-29 09:05:21,874 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-29 09:05:21,874 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-29 09:12:49,593 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:12:49,599 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-29 09:12:49,600 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-29 09:12:49,602 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:12:49,603 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-29 09:13:06,671 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:13:06,672 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-29 09:13:06,674 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-29 09:13:06,678 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:13:06,678 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-29 09:13:25,453 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:13:25,454 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-29 09:13:25,455 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-29 09:13:25,459 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:13:25,459 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-29 09:17:54,104 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:17:54,105 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-29 09:17:54,107 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-29 09:17:54,109 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 09:17:54,109 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-29 13:26:32,022 [Worker-133: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 13:26:32,024 [Worker-133: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-29 13:26:32,025 [Worker-133: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-29 13:26:32,027 [Worker-133: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-29 13:26:32,027 [Worker-133: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-30 17:58:47,086 [Worker-150: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-30 17:58:47,087 [Worker-150: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-30 17:58:47,089 [Worker-150: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-30 17:58:47,091 [Worker-150: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-30 17:58:47,091 [Worker-150: Launching RestfulWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources
+2019-03-30 18:13:46,747 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-30 18:13:46,749 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-30 18:13:46,750 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-30 18:13:46,751 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-30 18:13:46,752 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alpha.gieldeasis/Desktop/rest/restful-web-services/src/test/resources

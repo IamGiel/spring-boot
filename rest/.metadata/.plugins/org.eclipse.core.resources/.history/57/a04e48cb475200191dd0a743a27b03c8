@@ -31,14 +31,13 @@ public class UserResource {
 	public User retrieveUser(@PathVariable int id) {
 		User user = service.findOne(id);
 		
-		//throw an error if user not found
 		if(user==null)
 			throw new UserNotFoundException("id-" + id);
 		return user;
 	}
 	
 	//CREATED
-	//input - details of user
+	//imput - details of user
 	//output - CREATED & Return the created URI
 	@PostMapping("/users")
 	public ResponseEntity<Object> createUser(@RequestBody User user) {
