@@ -41,7 +41,7 @@ extends ResponseEntityExceptionHandler{
 	protected ResponseEntity<Object> handleMethodArgumentNotValid(
 			MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
 		
-		ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(), request.getDescription(false));
+		ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), "Validation Failed", request.getDescription(false));
 		// create new response entity object
 		ex.getBindingResult().toString();
 		return new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
