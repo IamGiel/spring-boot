@@ -1,5 +1,7 @@
 package com.gelrestwebservices.restfulwebservices.user;
 
+
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
 import java.net.URI;
 import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.util.List;
@@ -7,6 +9,8 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Resource;
+import org.springframework.hateoas.mvc.ControllerLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,13 +35,22 @@ public class UserResource {
 	//Get /users/{id}
 	//retrieveUser(int id)
 	@GetMapping("/users/{id}")
-	public User retrieveUser(@PathVariable int id) {
+	public Resource<User> retrieveUser(@PathVariable int id) {
 		User user = service.findOne(id);
 		
 		//throw an error if user not found
 		if(user==null)
 			throw new UserNotFoundException("id-" + id);
-		return user;
+		//HATEOAS - Hypermedia As the Engine of Application State
+		Resource<User> resource = new Resource<User>(user);
+		ControllerLinkBuilder linkTo = 
+				linkTo(methodOn(this.getClass()).retrieveAllUsers());
+		
+		// resource.add(linkTo.withRel("all-users"));
+		
+		resource.add(linkTo.withRel("all-users"));
+
+		return resource;
 	}
 	
 	//DELETE
@@ -49,6 +62,8 @@ public class UserResource {
 		if(user==null)
 			throw new UserNotFoundException("id-" + id);
 	}
+	
+	//HATEOAS
 	
 	//input - details of user
 	//output - CREATED & Return the created URI
